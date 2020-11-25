@@ -17,8 +17,6 @@
 
 [<< Day 5](../05_Day_Lists/05_lists.md) | [Day 7 >>](../07_Day_Sets/07_sets.md)
 
-![30DaysOfPython](../images/30DaysOfPython_banner3@2x.png)
-
 - [Day 6:](#day-6)
   - [Tuples](#tuples)
     - [Creating a Tuple](#creating-a-tuple)
@@ -41,6 +39,16 @@ A tuple is a collection of different data types which is ordered and unchangeabl
 - count(): to count the number of a specified item in a tuple
 - index(): to find the index of a specified item in a tuple
 - + operator: to join two or more tuples and to create a new tuple
+
+```py
+lst = [False, '1', 2, None , '4', '4', '4']
+tpl = tuple(lst)
+print(len(tpl)) # 7
+print(tpl.count('4')) # 3
+print(tpl.index('4')) # 4
+print(tpl.index('4', 5)) # 5
+#print(tpl.index('-1')) # ValueError
+```
 
 ### Creating a Tuple
 
@@ -150,6 +158,19 @@ We can slice out a subtuple by specifying a range of indexes where to start and 
   orange_mango = fruits[-3:-1]  # doesn't include item at index 3
   orange_to_the_rest = fruits[-3:]
   ```
+
+**Note by Luca:**
+
+使用 slice 切割 tuple
+
+```py
+tpl = (False, '1', 2, None , '4', '4', '4')
+print(tpl[0:7:3]) # (False, None, '4')
+print(tpl[::-1]) # 反转 tpl
+print(tpl[0:3]) # 获取前三个元素
+print(tpl[-3:]) # 获取后三个元素
+print(tpl[2:5]) # 获取中间三个元素
+```
 
 ### Changing Tuples to Lists
 
