@@ -279,10 +279,29 @@ print(fa)
 print(mot)
 ```
 7. Create fruits, vegetables and animal products tuples. Join the three tuples and assign it to a variable called food_stuff_tp.
+```py
+fruits = ('Apple', 'Banana')
+vegetables = ('🌶', '🍆')
+animal = ('🐅', '🐂', '🐱')
+food_stuff_tp = fruits + vegetables + animal
+```
 8. Change the about food_stuff_tp  tuple to a food_stuff_lt list
+```py
+food_stuff_lt = list(food_stuff_tp)
+```
 9. Slice out the middle item or items from the food_stuff_tp tuple or food_stuff_lt list.
+```py
+# TODO 
+```
 10. Slice out the first three items and the last three items from food_staff_lt list
+```py
+print(food_stuff_tp[0:3])
+print(food_stuff_tp[-3:])
+```
 11. Delete the food_staff_tp tuple completely
+```py
+del food_staff_tp
+```
 12. Check if an item exists in  tuple:
 
 - Check if 'Estonia' is a nordic country
@@ -291,5 +310,11 @@ print(mot)
   ```py
   nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
   ```
+A: 
+
+```py
+print('Estonia' in nordic_countries)
+print('Iceland' in nordic_countries)
+```
 
 [<< Day 5](../05_Day_Lists/05_lists.md) | [Day 7 >>](../07_Day_Sets/07_sets.md)
