@@ -60,6 +60,11 @@ There are four collection data types in python :
 | set        | ❌      | ✔       | ❌         | ❌        | ❌     | ✔                   | ❌     |
 | dictionary | ❌      | ✔       | ✔          | ❌        | ✔       | ✔                  | ✔       |
 
+**Note by Luca:**
+> mutable mainly means add new element to the collection.
+> 
+> modifiable means change the elements in the collection.
+
 A list is collection of different data types which is ordered and modifiable(mutable). A list can be empty or it may have different data type items or items
 
 ### How to Create a List
