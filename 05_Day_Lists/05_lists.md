@@ -17,8 +17,6 @@
 
 [<< Day 4](../04_Day_Strings/04_strings.md) | [Day 6 >>](../06_Day_Tuples/06_tuples.md)
 
-![30DaysOfPython](../images/30DaysOfPython_banner3@2x.png)
-
 - [Day 5](#day-5)
   - [Lists](#lists)
     - [How to Create a List](#how-to-create-a-list)
@@ -54,6 +52,13 @@ There are four collection data types in python :
 - Tuple: is a collection which is ordered and unchangeable or unmodifiable(immutable). Allows duplicate members.
 - Set: is a collection which is unordered, unindexed and unmodifiable, but you can add new items. No duplicate members.
 - Dictionary: is a collection which is unordered, changeable(modifiable) and indexed. No duplicate members.
+
+| collection | ordered | mutable | modifiable | duplicate | indexed | different_data_type | K_V    |
+|   :----:   | :----:  | :----:  |   :----:   |  :----:   |  :----: |  :----:             | :----: |
+| list       | ✔       | ✔       | ✔          | ✔         | ✔       | ✔                   | ❌     |
+| tuple      | ✔       | ❌      | ❌         | ✔         | ✔       | ✔                  | ❌     |
+| set        | ❌      | ✔       | ❌         | ❌        | ❌     | ✔                   | ❌     |
+| dictionary | ❌      | ✔       | ✔          | ❌        | ✔       | ✔                  | ✔       |
 
 A list is collection of different data types which is ordered and modifiable(mutable). A list can be empty or it may have different data type items or items
 
