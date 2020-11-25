@@ -17,8 +17,6 @@
 
 [<< Day 11](../11_Day_Functions/11_functions.md) | [Day 13>>](../13_Day_List_comprehension/13_list_comprehension.md)
 
-![30DaysOfPython](../images/30DaysOfPython_banner3@2x.png)
-
 - [📘 Day 12](#-day-12)
   - [Modules](#modules)
     - [What is a Module](#what-is-a-module)
@@ -41,7 +39,13 @@
 
 ### What is a Module
 
-A module is a file containing a set of codes or a set of functions which can be included to an application. A module could be a file containing a single variable, or a function, a big code base.
+A module is a **file** containing a set of codes or a set of functions which can be included to an application. A module could be a file containing a single variable, or a function, a big code base.
+
+**Note by Luca:**
+
+> module is a file ....
+> 
+> package ???
 
 ### Creating a Module
 
@@ -66,6 +70,10 @@ To import the file we use the _import_ keyword and the name of the file only.
 import mymodule
 print(mymodule.generate_full_name('Asabeneh', 'Yetayeh'))
 ```
+
+**Note by Luca:**
+
+> We can import a .py file using import key, then use variable, function etc. inside the file.
 
 ### Import Functions from a Module
 
