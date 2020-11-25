@@ -246,11 +246,38 @@ del fruits
 ## 💻 Exercises: Day 6
 
 1. Create an empty tuple
+```py
+tpl = ()
+empty_tpl = tuple()
+```
 2. Create a tuple containing names of your sisters and your brothers (imaginary siblings are fine)
+```py
+sisters = ('Jane', 'Alex')
+brothers = ('Donald')
+```
 3. Join brothers and sisters tuples and assign it to siblings
+```py
+sisters = ('Jane', 'Alex')
+brothers = ('Donald',) # why should end with ','???
+siblings = sisters + brothers
+print(siblings)
+```
 4. How many siblings do you have?
+```py
+len(siblings)
+```
 5. Modify the siblings tuple and add the name of your father and mother and assign it to family_members
+```py
+family_members = siblings + ('father',) + ('mother',)
+print(family_members)
+```
 6. Unpack siblings and parents from family_members
+```py
+*sibl, fa, mot = family_members
+print(sibl)
+print(fa)
+print(mot)
+```
 7. Create fruits, vegetables and animal products tuples. Join the three tuples and assign it to a variable called food_stuff_tp.
 8. Change the about food_stuff_tp  tuple to a food_stuff_lt list
 9. Slice out the middle item or items from the food_stuff_tp tuple or food_stuff_lt list.
